@@ -1,12 +1,13 @@
 baseurl: '/psychic-winner/'
 permalink: pretty
 title: 'MSU Information Security'
+include: [".well-known"]
 
 logo:
-  mobile: "images/logo/MSU-Wordmark.gif"
+  mobile: "images/logo/signature_web.png"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/MSU-Wordmark.gif"
+  desktop: "images/logo/signature_web.png"
   desktop_height: "32px"
   desktop_width: "120px"
 
@@ -33,7 +34,7 @@ defaults:
       path: ""
       type: "phish"
     values:
-      layout: "team"
+      layout: "phish"
 
 sass:
   indentWidth: 4

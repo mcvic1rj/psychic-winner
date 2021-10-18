@@ -8,6 +8,9 @@ main:
   - name: "About"
     url: "/about/"
     weight: 4
+  - name: "Phish Bucket"
+    url: "/phish/"
+    weight: 4
   - name: "Report a Security Incident"
     url: "/report/"
     weight: 5

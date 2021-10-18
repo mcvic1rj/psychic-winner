@@ -6,7 +6,12 @@
   },
   {
     "name": "Twitter",
-    "link": "https://twitter.com/michiganstateu",
+    "link": "https://twitter.com/techatmsu",
     "image": "images/social/twitter.svg"
+  },
+  {
+    "name": "Youtube",
+    "link":"https://www.youtube.com/channel/UCyEpocDaWfY3HL0Ccaes-eA",
+    "image":"images/social/twitter.svg"
   }
 ]

@@ -2,11 +2,8 @@
 title: Services
 layout: services
 description: Services
-intro_image: "images/illustrations/reading.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
 ---
 
-# Services that grow with your business
+# Information Security Services
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+MSU Information Security manages campus-wide incident response with the MSU Police and coordinates a vulnerability management program for testing university IT infrastructure on a regular basis.
