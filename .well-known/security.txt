@@ -1,0 +1,6 @@
+Contact: mailto:abuse@blah.edu
+Contact: mailto:abuse2@blah.edu
+Contact: https://somelink.blah.edu
+Expires: 2222-10-17T05:00:00.000Z
+Acknowledgments: https://blah.edu/security/thankyou.html
+Preferred-Languages: en
