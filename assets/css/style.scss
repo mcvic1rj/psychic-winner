@@ -1,7 +1,6 @@
 ---
 ---
 
-// Colors
 $primary: #18453b;
 $primary-dark: #18453b;
 $secondary: #0db14b;
@@ -9,6 +8,8 @@ $black: #2f2f41;
 $white: #ffffff;
 $white-offset: #fff6f8;
 $steel: #5c5a5a;
+$navbar-dark-brand-color: $white;
+$navbar-dark-color: $white;
 
 // Links
 $link-color: $primary;
@@ -30,7 +31,7 @@ $sub-footer-text-color: $white;
 @import "bootstrap-variables";
 @import "bootstrap/bootstrap-reboot";
 @import "bootstrap/bootstrap-grid";
-// @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
+@import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
 
 // Libraries
 @import "libraries/hamburgers/hamburgers";
@@ -54,8 +55,6 @@ $sub-footer-text-color: $white;
 @import "components/strip";
 @import "components/feature";
 @import "components/social";
-@import "bootstrap/navbar";
-@import "bootstrap/dropdown";
 // @import "components/fonts"; // Uncomment this line to self host font
 
 // Pages
