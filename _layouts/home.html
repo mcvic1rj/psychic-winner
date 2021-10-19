@@ -3,8 +3,11 @@ layout: default
 bodyClass: "page-home"
 ---
 
+
 <div class="intro">
+  
   <div class="container">
+    {% include alert.html %}
     <div class="row justify-content-start">
       {% unless page.intro_image %}
         <div class="col-12 col-md-12 col-lg-12 order-2 order-md-1">
@@ -61,7 +64,7 @@ bodyClass: "page-home"
           {% if feature.image %}
           <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
           {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
+          {% if feature.link %}<a href="{{ feature.link|relative_url }}">{% endif %}<h2 class="feature-title">{{ feature.title }}</h2>{% if feature.link %}</a>{% endif %}
           <div class="feature-content">{{ feature.description }}</div>
         </div>
       </div>

@@ -1,0 +1,12 @@
+{% if site.data.alerts %}
+
+{% for alert in site.data.alerts %}
+
+<div class="alert alert-{{alert.level}} alert-dismissible fade show" role="alert">
+    <strong>{{alert.title}}</strong> {{alert.description}} {% if alert.link %}<a href="{{ alert.link | relative_url }}">View details...</a>{% endif %}
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+{% endfor %}
+{% endif %}

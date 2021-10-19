@@ -1,0 +1,13 @@
+[
+    {
+      "title": "New phishing campaign.",
+      "description": "Be on the lookout for phishes saying that you may get financial aid.",
+      "link":"/phish",
+      "level":"danger"
+    },
+    {
+      "title": "Endpoint Protection EOL",
+      "description": "Symantec Endpoint protection is EOL in January. Start migrating now! <3",
+      "level":"warning"
+    }
+  ]  

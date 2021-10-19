@@ -2,6 +2,7 @@
   {
     "title": "Phish Bucket",
     "description": "Its something new!",
+    "link":"/phish",
     "image": {
       "url": "images/logo/phish.png",
       "width": 80,

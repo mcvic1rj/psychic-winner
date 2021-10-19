@@ -1,12 +1,7 @@
-<div class='header'>
-  <div class="container">
-    <div class="logo">
-      <a href="{{ site.baseurl }}"><img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
-    </div>
-    <div class="logo-mobile">
-      <a href="{{ site.baseurl }}"><img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}" alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
-    </div>
-    {% include main-menu.html %}
-    {% include hamburger.html %}
-  </div>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="{{ site.baseurl }}"><h2>{{site.title}}</h2></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  {% include main-menu.html %}
+</nav>
