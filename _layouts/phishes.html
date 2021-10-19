@@ -16,14 +16,15 @@ bodyClass: "page-services"
 <div class="container pt-6 pb-6">
   <div class="row">
     {% assign weighted_phishes = site.phish | sort: "weight" %}
-    {% for phish in weighted_phishes %}
+    {% for phish in weighted_phishes limit:10 %}
     <div class="col-12 col-md-6 mb-3">
       <div class="service service-summary">
         <div class="service-content">
           <h2 class="service-title">
             <a href="{{ phish.url | relative_url }}">{{ phish.title }}</a>
           </h2>
-          <p>{{ phish.content | markdownify | strip_html | truncate: 100 }}</p>
+            <img alt={{ phish.description }} width="100%" src="{{ phish.image | relative_url }}" />
+            <p>{{ phish.content | markdownify | strip_html | truncate: 100 }}</p>
         </div>
       </div>
     </div>

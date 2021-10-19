@@ -2,6 +2,10 @@ main:
   - name: "Services"
     url: "/services/"
     weight: 2
+    subitems:
+      - incident-response
+      - vulnerability-management
+      - anti-virus
   - name: "Team"
     url: "/team/"
     weight: 3

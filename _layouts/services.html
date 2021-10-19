@@ -6,7 +6,12 @@ bodyClass: "page-services"
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+      {% unless page.intro_image %}
+      <div class="col-12 col-md-12 col-lg-12 order-2 order-md-1">
+    {%endunless%}
+      {% if page.intro_image %}
+        <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+      {% endif %}
         {{ content }}
       </div>
       {% if page.intro_image %}
